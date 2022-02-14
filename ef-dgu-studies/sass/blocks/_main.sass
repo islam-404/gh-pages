@@ -1,0 +1,40 @@
+.main
+ padding-top: 25px
+ &-info
+  display: flex
+  justify-content: space-between
+  align-items: center
+  font-size: 24px
+  font-weight: bold
+  color: $text-color
+ &-navigation
+  display: flex
+  flex-direction: column
+  &__buttons
+   display: flex
+   flex-direction: column
+   align-items: center
+   margin-top: 35px
+   // justify-content: center
+   & .navigation__button
+    width: 260px
+    padding: 10px 20px
+    margin: 20px 0
+    border-radius: 7px
+    background-color: $button-color
+    display: flex
+    justify-content: center
+    text-align: center
+    overflow: hidden
+    color: $button-text-color
+   & .navigation-list
+    // height: 1
+    display: none
+    overflow: hidden
+    transition: 1s
+   & a
+    color: $button-text-color
+    font-size: 24px
+    font-weight: bold
+    text-decoration: none
+    // border: 0
